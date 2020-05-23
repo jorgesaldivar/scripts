@@ -1,0 +1,2 @@
+# Git search all commits by author
+git log --pretty=format:"%ad:%an:%d:%B" --date=short --reverse --branches --author=
